@@ -4,6 +4,7 @@
 ### Demente Personen zum Zimmer bringen
 * mehrere Zielpunkte: Tür erkennen (2-3)
 * mehrere Startpunkte möglich
+
 ... Möglicherweise Problembereitend, da es schwierig wird zu Beginn erkennen, wo 
 ... der Roboter sich als Startpunkt befindet. Vllt. Fester Startpunkt, von dem man aus Abholt 
 ... Oder mit Bodenmarkieren gesamter Raum eingrenzbar...
@@ -24,6 +25,7 @@ Er sollte mithilfe aller Messpunkte eine Karte seiner Umgebung erstellen und dad
 eigene Position herausfinden und analysieren , wo er hinfahren soll.
 * Zuvor macht der Roboter eine Analysefahrt, um die Umgebung zu analysieren und damit man die Türen 
 der Bewohner einspeichern kann. 
+
 ... Alternativ könnte man mit Markierungen an den Türen, Wänden oder Boden arbeiten.
 
 #### Personen-Erkennung
