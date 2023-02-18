@@ -21,10 +21,11 @@
 #### Raum-Orientierung:
 * Der Roboter erkennt mithilfe eines 360° Laserscanner(Lidar/ToF) Modules seine Umgebung:
 Er sollte mithilfe aller Messpunkte eine Karte seiner Umgebung erstellen und dadurch seine 
-eigene Position herausfinden und analysieren , wo er hinfahren soll.
+eigene Position herausfinden und analysieren, wo er hinfahren soll.
 * Zuvor macht der Roboter eine Analysefahrt, um die Umgebung zu analysieren und damit man die Türen 
 der Bewohner einspeichern kann. 
     * Alternativ könnte man mit Markierungen an den Türen, Wänden oder Boden arbeiten.
+    * Essenzieller, schwierig umsetbarer Teil des Projekts, Umgehen des Problemes gilt schwierig
 
 #### Personen-Erkennung
 * Mit einem RFID-Chip wird erkannt um welche Person es sich handelt.
