@@ -5,9 +5,9 @@
 * mehrere Zielpunkte: Tür erkennen (2-3)
 * mehrere Startpunkte möglich
 
-⋅⋅⋅ Möglicherweise Problembereitend, da es schwierig wird zu Beginn erkennen, wo 
-⋅⋅⋅ der Roboter sich als Startpunkt befindet. Vllt. Fester Startpunkt, von dem man aus Abholt 
-⋅⋅⋅ Oder mit Bodenmarkieren gesamter Raum eingrenzbar...
+⋅⋅⋅Möglicherweise Problembereitend, da es schwierig wird zu Beginn erkennen, wo 
+⋅⋅⋅der Roboter sich als Startpunkt befindet. Vllt. Fester Startpunkt, von dem man aus Abholt 
+⋅⋅⋅Oder mit Bodenmarkieren gesamter Raum eingrenzbar...
 
 ### Zuküntig mögliche Erweiterungen
 * Roboter kann ins Zimmer der Patienten fahren
