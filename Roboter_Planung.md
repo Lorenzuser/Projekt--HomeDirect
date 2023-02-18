@@ -8,6 +8,9 @@
 ... der Roboter sich als Startpunkt befindet. Vllt. Fester Startpunkt, von dem man aus Abholt 
 ... Oder mit Bodenmarkieren gesamter Raum eingrenzbar...
 
+### Zuküntig mögliche Erweiterungen
+* Roboter kann ins Zimmer der Patienten fahren
+
 ### Spezififierung der Zielgruppe
 * nicht mobile Demenz-Patienten
 * mit Hilfsmitteln(z.B.: Krückstock) mobile Demenz-Patienten
