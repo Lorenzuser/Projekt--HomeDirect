@@ -16,8 +16,7 @@
 * mit Hilfsmitteln(z.B.: Krückstock) mobile Demenz-Patienten
 * mobile Demenz-Patienten
 
-
-### Mögliche Techniche Umsetung
+### Mögliche Techniche Umsetung  
 #### Raum-Orientierung:
 * Der Roboter erkennt mithilfe eines 360° Laserscanner(Lidar/ToF) Modules seine Umgebung:
 Er sollte mithilfe aller Messpunkte eine Karte seiner Umgebung erstellen und dadurch seine 
@@ -38,6 +37,6 @@ der Bewohner einspeichern kann.
  * Entfernung zischen "Orientierungspunkten"
 
  * Kreuzungsausgänge    
- 
+
 #### Personen-Erkennung
 * Mit einem RFID-Chip wird erkannt um welche Person es sich handelt.
