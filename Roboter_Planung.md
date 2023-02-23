@@ -26,6 +26,16 @@ eigene Position herausfinden und analysieren, wo er hinfahren soll.
 der Bewohner einspeichern kann. 
     * Alternativ könnte man mit Markierungen an den Türen, Wänden oder Boden arbeiten.
     * Essenzieller, schwierig umsetbarer Teil des Projekts, Umgehen des Problemes gilt schwierig
+##### Benötigte Navigationsdaten  
+     *-"Orientierungspunkte":  
+      
+      -Kreuzungen  
+      -Abbiegungen  
+      -dead ends
+      -Startpunkte  
+      -Zielpunkte  
+      *Entfernung zischen "Orientierungspunkten"
+      *Kreuzungsausgänge  
 
 #### Personen-Erkennung
 * Mit einem RFID-Chip wird erkannt um welche Person es sich handelt.
