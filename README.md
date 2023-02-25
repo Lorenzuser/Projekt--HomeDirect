@@ -1,4 +1,4 @@
-# Medizin Bot - ( Projektname: DemiDrive (Idee))
+# Altersheim-Robotik - ( Projektname: DemiDrive (Idee))
 
 Der <strong>Fachkräftemangel</strong> ist allgegenwärtig innerhalb der Medizin sowie Altenpflege.  
  Dies stellt ein Problem dar, wenn niemand in der Lage ist, den zu pflegenden Menschen zu helfen.  
