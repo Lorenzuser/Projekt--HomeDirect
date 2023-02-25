@@ -72,9 +72,9 @@ befestigt sein.
 * RFID Leser und Transponder *(Wir haben einen in der Schule)*
 * Motoren (Enocoder, Stepper?) *(Stepper ebenfalls, obwohl ich glaube, dass Gleichstrom-Motoren mit Encoder besser geeignet sind)*
 * Akku, ggf. Ladegerät
-* Single-Board-Computer (Jetson Nano, Raspberry Pi)
+* Single-Board-Computer (Jetson Nano, Raspberry Pi), vielleicht auch mit 64er SD-Karte, obwohl ich 32er habe.
 * Microcontroller/Erweiterter Microcontroller, *(Auch teilweise in Schule)*
 * gy 521/mpu 6050 als Beispiel für günstiges Gyroskop/Beschleunigungssensor
-* *Weitere Sensoren als Ergänzung für den Lidar, zum Beispiel Tiefgelegte Leisten mit Buttons.
+* *Weitere Sensoren als Ergänzung für den Lidar, zum Beispiel Tiefgelegte Leisten mit Buttons oder Kameras.
 Auch während der Entwicklung neue Dinge, welche hilfreich sind, wie Displays, Switches, Dinge für Nuterinteragierung usw., neue Ideen werden folgen...*
 
