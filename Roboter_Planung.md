@@ -62,6 +62,7 @@ Anforderungen an Material und Motoren hinzukommen. Voraussichtlich arbeiten wir 
 * Um ein stabiles Fahrverhalten gewährleisten zu können, sollten Motoren und Akkus am tiefsten gelegt sein. Der 360° Lidar 
 sollte für bessere Sicht an wichtigen Objekten und eine gesamte Umsicht ganz oben, an der "Spitze" des Roboters
 befestigt sein. 
+* (es ist denkbar sich an modernen Staubsaugerobotern zu orientieren)
 #### Personen-Erkennung
 * Mit einem RFID-Chip wird erkannt, um welche Person es sich handelt.
 
