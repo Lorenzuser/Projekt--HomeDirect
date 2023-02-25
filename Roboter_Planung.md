@@ -54,6 +54,7 @@ Die Kommunikation könnte über I2C, UART/USB, oder wahrscheinlich weniger prakt
 * Der Roboter sollte einen sicheren, gut manövrierbaren Aufbau haben und er muss in seiner natürlichen Umgebung 
 keine großen Hindernisse überfahren können. Ob Meccanum-Wheels oder Omni-Directional-Wheels von Vorteil sind
 gilt es herauszufinden. Aber wahrscheinlich würde eine simple Panzersteuerung mit 4 Rädern oder Ketten am besten funktionieren.
+Denkbar wäre auch die Nutzung von zwei Rädern für besseres Wenden/Drehen.
 * Aus Gründen der Sichtbarkeit für die Nutzer und schnelleren Entwicklung und späteren Ergänzungen kann der Roboter
 problemlos etwas größer sein. Eine Grundfläche von 0.25 qm könnte man anpeilen, obwohl mit der Größe auch weitere
 Anforderungen an Material und Motoren hinzukommen. Voraussichtlich arbeiten wir größtenteils mit 
