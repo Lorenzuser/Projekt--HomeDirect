@@ -20,11 +20,15 @@
 #### Raum-Orientierung:
 * Der Roboter erkennt mithilfe eines 360° Laserscanner(Lidar/ToF) Modules seine Umgebung:
 Er sollte mithilfe aller Messpunkte eine Karte seiner Umgebung erstellen und dadurch seine 
-eigene Position herausfinden und analysieren, wo er hinfahren soll.
+eigene Position herausfinden und analysieren, wo er hinfahren soll. Die Software dazu, soll aus Basis 
+von Ros 2 (Robot Operating System) entwickelt werden.
 * Zuvor macht der Roboter eine Analysefahrt, um die Umgebung zu analysieren und damit man die Türen 
 der Bewohner einspeichern kann. 
     * Alternativ könnte man mit Markierungen an den Türen, Wänden oder Boden arbeiten.
+    * Ros 2 kann man relativ einfach mit der opencv-Library ergänzen.
     * Essenzieller, schwierig umsetbarer Teil des Projekts, Umgehen des Problemes gilt schwierig
+
+<!---
 ##### Benötigte Navigationsdaten
 * "Orientierungspunkte" : 
 
@@ -37,6 +41,6 @@ der Bewohner einspeichern kann.
  * Entfernung zischen "Orientierungspunkten"
 
  * Kreuzungsausgänge    
-
+--->
 #### Personen-Erkennung
 * Mit einem RFID-Chip wird erkannt um welche Person es sich handelt.
