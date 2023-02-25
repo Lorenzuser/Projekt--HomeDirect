@@ -1,5 +1,6 @@
 # Altersheim-Robotik - ( Projektname: DemiDrive (Idee)) 
-### //Anmerkung Lorenz: Könnte ggf als unangenehm für Nutzer empfunden werden. 
+###++ //Anmerkung Lorenz: Könnte ggf als unangenehm für Nutzer empfunden werden. 
+
 
 Der <strong>Fachkräftemangel</strong> ist allgegenwärtig innerhalb der Medizin sowie Altenpflege.  
  Dies stellt ein Problem dar, wenn niemand in der Lage ist, den zu pflegenden Menschen zu helfen.  
