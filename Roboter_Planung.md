@@ -75,5 +75,5 @@ befestigt sein.
 * Microcontroller/Erweiterter Microcontroller, *(Auch teilweise in Schule)*
 * gy 521/mpu 6050 als Beispiel für günstiges Gyroskop/Beschleunigungssensor
 * *Weitere Sensoren als Ergänzung für den Lidar, zum Beispiel Tiefgelegte Leisten mit Buttons.
-Auch während der Entwicklung neue Dinge, welche hilfreich sind, wie Displays, Switches, Dinge für Nuterinteragierung usw., neue Ideen werden folgen*
+Auch während der Entwicklung neue Dinge, welche hilfreich sind, wie Displays, Switches, Dinge für Nuterinteragierung usw., neue Ideen werden folgen...*
 
