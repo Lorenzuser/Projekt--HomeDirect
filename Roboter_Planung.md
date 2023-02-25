@@ -63,3 +63,17 @@ sollte für bessere Sicht an wichtigen Objekten und eine gesamte Umsicht ganz ob
 befestigt sein. 
 #### Personen-Erkennung
 * Mit einem RFID-Chip wird erkannt, um welche Person es sich handelt.
+
+
+# Materialliste  
+
+* 360° Lidar/Laser/ToF Sensor. Idee: RPLidar A1M8, sonst alternative DIY-Lösungen suchen
+* RFID Leser und Transponder *(Wir haben einen in der Schule)*
+* Motoren (Enocoder, Stepper?) *(Stepper ebenfalls, obwohl ich glaube, dass Gleichstrom-Motoren mit Encoder besser geeignet sind)*
+* Akku, ggf. Ladegerät
+* Single-Board-Computer (Jetson Nano, Raspberry Pi)
+* Microcontroller/Erweiterter Microcontroller, *(Auch teilweise in Schule)*
+* gy 521/mpu 6050 als Beispiel für günstiges Gyroskop/Beschleunigungssensor
+* *Weitere Sensoren als Ergänzung für den Lidar, zum Beispiel Tiefgelegte Leisten mit Buttons.
+Auch während der Entwicklung neue Dinge, welche hilfreich sind, wie Displays, Switches, Dinge für Nuterinteragierung usw., neue Ideen werden folgen*
+
