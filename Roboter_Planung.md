@@ -1,86 +1,80 @@
-# Planung des Roboters
+# Planung des Roboters und mögliche Ideen:
 
 ## Features des Roboters
-### Demente Personen zum Zimmer bringen
-* mehrere Zielpunkte: Tür erkennen (2-3)
-* mehrere Startpunkte möglich
+### Ein Roboter bringt demente Personen zum Zimmer. Das beeinhaltet:
+* mehrere Zielpunkte werden angefahren: (Tür erkennen (2-3))
+* mehrere Startpunkte sind möglich.
+* Es wird mit dem Nutzer interagiert.
+    <!---
     * Möglicherweise Problem bereitend, da es schwierig wird zu Beginn erkennen, wo 
     * der Roboter sich als Startpunkt befindet. Vllt. fester Startpunkt, von dem man den Roboter 
     * aus Abholt oder mit Bodenmarkieren gesamter Raum eingrenzbar...
-
+    --->
 ### Zukünftig mögliche Erweiterungen
 * Roboter kann ins Zimmer der Patienten fahren
+* Roboter transportiert Gegenstände
+* Roboter interagiert **sozial** mit Patienten
 
 ### Spezififizierung der Zielgruppe
-(* nicht mobile Demenz-Patienten)
-* mit Hilfsmitteln(z.B.: Krückstock) mobile Demenz-Patienten
-* mobile Demenz-Patienten
+* mobile Demenz-Patienten 
+* mobile Demenz-Patienten mit Hilfsmitteln(z.B. Krückstock, Rollator)
+* *(nicht mobile Demenz-Patienten)*
 
-### Mögliche Technische Umsetzung  
-#### Raum-Orientierung:
-1. Option A
-* Der Roboter erkennt mithilfe eines 360° Laserscanner(Lidar/ToF) Modules seine Umgebung:
+# Mögliche technische Umsetzungen  
+## Raum-Orientierung:
+### Option A:
+* Der Roboter erkennt mithilfe eines 360° Laserscanner(Lidar/ToF)-Modules seine Umgebung:
 Er sollte mithilfe aller Messpunkte eine Karte seiner Umgebung erstellen und dadurch seine 
-eigene Position herausfinden und analysieren, wo er hinfahren soll. Die Software dazu, soll aus Basis 
+eigene Position herausfinden und analysieren, wo er hinfahren soll. Die Software dazu, soll auf Basis 
 von Ros 2 (Robot Operating System) entwickelt werden.
 Am besten unterstützt und am weitesten verbreitet in der günstigen Preisklasse sind die Sensoren von RPLidar.
 Das günstigste Modell, der "A1M8" kostet auf den ersten Blick so 120-140€. Je nach Budget kann man es sicherlich auch
 mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern probieren.
-* Zuvor macht der Roboter eine Analysefahrt, um die Umgebung zu analysieren und damit man die Türen 
-der Bewohner einspeichern kann. 
-    * Alternativ könnte man mit Markierungen an den Türen, Wänden oder Boden arbeiten.
+* Zuvor macht der Roboter eine Analysefahrt, um die Umgebung zu analysieren und damit man die Türen der Bewohner einspeichern kann. 
+    * Alternativ könnte man mit Markierungen an den Türen, Wänden, Decke oder Boden arbeiten.
     * Ros 2 kann man relativ einfach mit der opencv-Library ergänzen.
-    * Essenzieller, schwierig umsetzbarer Teil des Projekts, Umgehen des Problems gilt schwierig
     
-2.Option B
-* Orientierung anhand von Linien am Boden
+### Option B:
+* Vor Verwendung des Roboters werden Makierungen auf dem Boden angebracht. Diese könnten auf Basis kontrastreicher Linien aufbauen. Der Roboter orientiert sich anhand dieser, um den Weg zu den Räumen zu finden. 
+* Der Roboter könnte eine Analysefahrt machen, um auch bei komplexer werdenden räumlichen Gegebenheiten, den kürzesten Weg zu finden. 
 
-3.Option C
-* Orientierung Anhand von Markierungen/Linien an der Decke
+### Option C
+* Alternativ könnten ähnliche Makierungen auf der Decke angebracht werden, um Probleme mit Gegenständen auf dem Boden zu umgehen und ein trotz den Makierungen angenehmes Wohnklima aufrecht zu erhalten.
 
-  
-<!---
-##### Benötigte Navigationsdaten
-* "Orientierungspunkte" : 
+# Chassis des Roboter:
+## Anforderungen:
+- Es sollte gut erkennbar für seine Nutzer sein.
+    > *Könnte möglicherweise auch als Gehhilfe dienen.*
+- Es sollte ein gutes Fahrverhalten auf ebenen Flächen haben.
+- Sollte Motoren-Encoder zur Positionsbestimmung haben.
+## Mögliche Umsetzungen:
+> **Denkbar sind alle Möglichkeiten mit der Nutzung von 2/4 Rad-Motorisierung oder Ketten. Immer wird eine Panzersteuerung verwendet. Als Ergänzung ist die Möglichkeit der Nutzung von Meccanum-Wheels oder Omni-Wheels heranziebar.**
+### Option A:
+- Aus 3D-Druck-Plastik-Komponenten könnte ein Mehretagiger Roboter gebaut werden, der den jeweiligen Anforderungen entspricht. Die Räder und ggf. Schrauben/Muttern und andere Hardware werden ergänzend hinzugezugen.
+### Option B:
+- Die Hardware wird auf einem Roboter-Bauset angebracht und ggf. ergänzt. 
+### Option C:
+- Ein Rollator wird motorisiert und entsprechen den Anforderungen umgebaut. 
 
-   -Kreuzungen  
-   -Abbiegungen  
-   -dead ends
-   -Startpunkte  
-   -Zielpunkte  
+## Hardware-Gestaltung des Roboters
+### Idee 1:
+- Der Roboter bestehtaus zwei Hard- und Software-Instanzen. 
+Das bedeutet genauer, dass wir einen Raspberry Pi/Jetson Nano oder anderen Single-Board-Computer für komplexe Anwendungen nutzen und mit einem Arduino/Esp/Microcontroller die Motoren steuern und Sensordaten aufnehmen. Die Kommunikation könnte über I2C, UART/USB oder SPI funktionieren. 
+### Idee 2:
+- Alternativ könnte komplexe und rechenintensive Aufgaben auf Home-Servern laufen, sowie ggf. komplexere Sensordatenverarbeitung und das Kartographieren. Weiterhin würde das direkte interagieren mit Sensoren/Motoren auf einem Arduino/Esp/Microcontroller geschehen.
+### Idee 3:
+- Wir könnten die gesamte Software und Hardware-Interaktion so simpel gestalten, dass wir alles über einem oder mehren Arduino/Esp/Microcontroller verarbeiten.
 
- * Entfernung zischen "Orientierungspunkten"
-
- * Kreuzungsausgänge    
---->
-#### Gestaltung des Roboters:
-* Wir tendieren dazu, den Roboter mit zwei Hard- und Software-Instanzen zu gestalten. 
-Das bedeutet genauer, dass wir einen Raspberry Pi/Jetson Nano oder anderen Single-Board-Computer, oder 
-sogar alternativ auf Home-Servern die komplexere Sensordatenverarbeitung und das Kartographieren laufen lassen, 
-und auf einem Arduino/Esp/Microcontroller die Motoren steuern und Sensordaten aufzunehmen.
-Die Kommunikation könnte über I2C, UART/USB, oder wahrscheinlich weniger praktisch für den Arduino SPI funktionieren.
-* Der Roboter sollte einen sicheren, gut manövrierbaren Aufbau haben und er muss in seiner natürlichen Umgebung 
-keine großen Hindernisse überfahren können. Ob Meccanum-Wheels oder Omni-Directional-Wheels von Vorteil sind
-gilt es herauszufinden. Aber wahrscheinlich würde eine simple Panzersteuerung mit 4 Rädern oder Ketten am besten funktionieren.
-Denkbar wäre auch die Nutzung von zwei Rädern für besseres Wenden/Drehen.
-* Aus Gründen der Sichtbarkeit für die Nutzer und schnelleren Entwicklung und späteren Ergänzungen kann der Roboter
-problemlos etwas größer sein. Eine Grundfläche von 0.25 qm könnte man anpeilen, obwohl mit der Größe auch weitere
-Anforderungen an Material und Motoren hinzukommen. Voraussichtlich arbeiten wir größtenteils mit 
-3D-Druck Plastik Komponenten. Für das Grundchassis und Schrauben/Muttern oder vergleichbares könnten andere Materialien genutzt werden.
-* Um ein stabiles Fahrverhalten gewährleisten zu können, sollten Motoren und Akkus am tiefsten gelegt sein. Der 360° Lidar 
-sollte für bessere Sicht an wichtigen Objekten und eine gesamte Umsicht ganz oben, an der "Spitze" des Roboters
-befestigt sein. 
-* (es ist denkbar sich an modernen Staubsaugerobotern zu orientieren)
-#### Personen-Erkennung
+## Personen-Erkennung
 * Mit einem RFID-Chip wird erkannt, um welche Person es sich handelt.
 
 
-# Materialliste  
+# Materialliste mit möglichen Teilen:
 
 * 360° Lidar/Laser/ToF Sensor. Idee: RPLidar A1M8, sonst alternative DIY-Lösungen suchen
 * RFID Leser und Transponder *(Wir haben einen in der Schule)*
 * Motoren (Enocoder, Stepper?) *(Stepper ebenfalls, obwohl ich glaube, dass Gleichstrom-Motoren mit Encoder besser geeignet sind)*
-* Akku, ggf. Ladegerät
+* Akku, ggf. Ladegerät *(Gute 7.4 V Akkus gibt es in der Schule)*
 * Single-Board-Computer (Jetson Nano, Raspberry Pi), vielleicht auch mit uhs-1 64er SD-Karte, obwohl ich 32er habe.
 * Microcontroller/Erweiterter Microcontroller, *(Auch teilweise in Schule)*
 * gy 521/mpu 6050 als Beispiel für günstiges Gyroskop/Beschleunigungssensor
