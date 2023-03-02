@@ -54,7 +54,7 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 ### Option B:
 - Die Hardware wird auf einem Roboter-Bauset angebracht und ggf. ergänzt. 
 ### Option C:
-- Ein Rollator wird motorisiert und entsprechen den Anforderungen umgebaut. 
+- Ein Rollator wird motorisiert und entsprechend den Anforderungen umgebaut. 
 
 ## Hardware-Gestaltung des Roboters
 ### Idee 1:
