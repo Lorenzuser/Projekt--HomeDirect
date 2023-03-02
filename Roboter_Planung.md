@@ -12,12 +12,13 @@
 * Roboter kann ins Zimmer der Patienten fahren
 
 ### Spezififizierung der Zielgruppe
-* nicht mobile Demenz-Patienten
+(* nicht mobile Demenz-Patienten)
 * mit Hilfsmitteln(z.B.: Krückstock) mobile Demenz-Patienten
 * mobile Demenz-Patienten
 
 ### Mögliche Technische Umsetzung  
 #### Raum-Orientierung:
+1. Option A
 * Der Roboter erkennt mithilfe eines 360° Laserscanner(Lidar/ToF) Modules seine Umgebung:
 Er sollte mithilfe aller Messpunkte eine Karte seiner Umgebung erstellen und dadurch seine 
 eigene Position herausfinden und analysieren, wo er hinfahren soll. Die Software dazu, soll aus Basis 
@@ -29,8 +30,15 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 der Bewohner einspeichern kann. 
     * Alternativ könnte man mit Markierungen an den Türen, Wänden oder Boden arbeiten.
     * Ros 2 kann man relativ einfach mit der opencv-Library ergänzen.
-    * Essenzieller, schwierig umsetzbarer Teil des Projekts, Umgehen des Problems gilt schwierig.
+    * Essenzieller, schwierig umsetzbarer Teil des Projekts, Umgehen des Problems gilt schwierig
+    
+2.Option B
+* Orientierung anhand von Linien am Boden
 
+3.Option C
+* Orientierung Anhand von Markierungen/Linien an der Decke
+
+  
 <!---
 ##### Benötigte Navigationsdaten
 * "Orientierungspunkte" : 
