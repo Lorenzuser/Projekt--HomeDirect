@@ -78,4 +78,5 @@ befestigt sein.
 * gy 521/mpu 6050 als Beispiel für günstiges Gyroskop/Beschleunigungssensor
 * *Weitere Sensoren als Ergänzung für den Lidar, zum Beispiel Tiefgelegte Leisten mit Buttons oder Kameras.
 Auch während der Entwicklung neue Dinge, welche hilfreich sind, wie Displays, Switches, Dinge für Nutzerinteragierung usw., neue Ideen werden folgen...*
+* Räder
 
