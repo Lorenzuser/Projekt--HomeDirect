@@ -1,5 +1,4 @@
-# Altersheim-Robotik - ( Projektname: DemiDrive (Idee)) 
-##### //Anmerkung Lorenz: Könnte ggf als unangenehm für Nutzer empfunden werden. 
+# Altersheim-Robotik - ( Projektname: HomeDirect) 
 
 
 Der <strong>Fachkräftemangel</strong> ist allgegenwärtig innerhalb der Medizin sowie Altenpflege.  
