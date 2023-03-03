@@ -35,11 +35,11 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
     * Ros 2 kann man relativ einfach mit der opencv-Library ergänzen.
     
 ### Option B:
-* Vor Verwendung des Roboters werden Markierungen auf dem Boden angebracht. Diese könnten auf Basis kontrastreicher Linien aufbauen. Der Roboter orientiert sich anhand dieser, um den Weg zu den Räumen zu finden. 
+* Vor Verwendung des Roboters werden Markierungen auf dem Boden angebracht. Diese könnten auf Basis kontrastreicher Linien aufbauen. Der Roboter orientiert sich anhand dieser, um den Weg zu den Räumen zu finden. Als Sensoren werden Farbsensoren oder Helligkeitssensoren verwendet.
 * Der Roboter könnte eine Analysefahrt machen, um auch bei komplexer werdenden räumlichen Gegebenheiten, den kürzesten Weg zu finden. 
 
 ### Option C
-* Alternativ könnten ähnliche Markierungen auf der Decke angebracht werden, um Probleme mit Gegenständen auf dem Boden zu umgehen und ein trotz den Makierungen angenehmes Wohnklima aufrechtzuerhalten.
+* Es werden ähnliche Markierungen auf dem Boden oder der Decke angebracht. Diese werden mithilfe einer optischen Kamera, anstatt punktueller Sensoren erkannt. 
 
 # Chassis des Roboters:
 ## Anforderungen:
