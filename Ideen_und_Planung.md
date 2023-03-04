@@ -68,7 +68,11 @@ Das bedeutet genauer, dass wir einen Raspberry Pi/Jetson Nano oder anderen Singl
 - Wir könnten die gesamte Software und Hardware-Interaktion so simpel gestalten, dass wir alles über einen oder mehren Arduino/Esp/Microcontroller verarbeiten.
 
 ## Personen-Erkennung
-* Mit einem RFID-Chip wird erkannt, um welche Person es sich handelt.
+### Option 1
+- Mit einem RFID-Chip wird erkannt, um welche Person es sich handelt.
+### Option 2
+- Gesichtserkennung
+
 
 
 # Materialliste mit möglichen Teilen:
