@@ -54,9 +54,12 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 ### Option A:
 - Aus 3D-Druck-Plastik-Komponenten könnte ein mehretagiger Roboter gebaut werden, der den jeweiligen Anforderungen entspricht. Die Räder und ggf. Schrauben/Muttern und andere Hardware werden ergänzend hinzugezogen.
 ### Option B:
-- Die Hardware wird auf einem Roboter-Bauset angebracht und ggf. ergänzt. 
+- Die Hardware wird auf einem Roboter-Bauset angebracht und ggf. ergänzt.
+> Diese Version des Roboters währe mehr als Prototy zu sehen, mit dessen Hilfe die Grundsätzliche Funtktionsweise eines möglichen weiter entwickelten Roboters demonstriert wird. 
 ### Option C:
 - Ein Rollator wird motorisiert und entsprechend den Anforderungen umgebaut. 
+### Option D:
+- Design mit Ähnlichkeiten zu Robotern, die menschliche Anwesenheit emulieren sollen, mit evtl. denkbaren Display und Personenhöhe
 
 ## Hardware-Gestaltung des Roboters
 ### Idee 1:
