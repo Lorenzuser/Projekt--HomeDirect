@@ -41,6 +41,8 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 ### Option C
 * Es werden ähnliche Markierungen auf dem Boden oder der Decke angebracht. Diese werden mithilfe einer optischen Kamera, anstatt punktueller Sensoren erkannt. 
 
+### Option D
+* Markierungen am Boden, wie B,jedoch mit zusätzlichen kleineren Markierugen an Kreuzungen, die jeweils die richtige Route zum Zimmer angeben (Verlässlichkeit varriiert).
 # Chassis des Roboters:
 ## Anforderungen:
 - Es sollte gut erkennbar für seine Nutzer sein.
