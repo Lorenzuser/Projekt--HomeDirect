@@ -60,7 +60,7 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 - Ein Rollator wird motorisiert und entsprechend den Anforderungen umgebaut. 
 > siehe z.B.: Räder von E-Scootern
 ### Option D:
-- Design mit Ähnlichkeiten zu Robotern, die menschliche Anwesenheit emulieren sollen, mit evtl. denkbaren Display und Personenhöhe
+- Design mit Ähnlichkeiten zu Robotern, die menschliche Anwesenheit emulieren sollen, mit evtl. denkbaren Display sowie Personenhöhe
 
 ## Hardware-Gestaltung des Roboters
 ### Idee 1:
