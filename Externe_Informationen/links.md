@@ -13,3 +13,4 @@
 
 [Link zum Telepräsenzroboter Ohmnilabs](https://ohmnilabs.com/products/ohmni-telepresence-robot/)
 
+[Link zu Roboter, "Spencer", welcher meschen im Flughafen bei Navigierung hilft](https://phys.org/news/2015-11-robot-passengers-airport.html)
