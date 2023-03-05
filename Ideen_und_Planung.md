@@ -58,6 +58,7 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 > Diese Version des Roboters währe mehr als Prototy zu sehen, mit dessen Hilfe die Grundsätzliche Funtktionsweise eines möglichen weiter entwickelten Roboters demonstriert wird. 
 ### Option C:
 - Ein Rollator wird motorisiert und entsprechend den Anforderungen umgebaut. 
+> siehe z.B.: Räder von E-Scootern
 ### Option D:
 - Design mit Ähnlichkeiten zu Robotern, die menschliche Anwesenheit emulieren sollen, mit evtl. denkbaren Display und Personenhöhe
 
