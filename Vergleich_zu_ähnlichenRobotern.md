@@ -5,3 +5,10 @@
 * sollt trotz zahlreicher Veränderungen in Umgebung sich orientieren können
 * berücksichtig menschliches Verhalten :  
 fährt um Menschengruppen herum und wartet, wenn die Geführte Person nicht hinterher kommt
+* nicht speziell auf die Medizin bzw. Plege ausgerichtet
+
+## Paro”, “Pepper”, “Mario 
+* kolloborative Assistenzroboter
+* für Pflege bestimmt
+* bieten Unterhaltung für Patienten
+* 
