@@ -61,6 +61,13 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 > siehe z.B.: Räder von E-Scootern
 ### Option D:
 - Design mit Ähnlichkeiten zu Robotern, die menschliche Anwesenheit emulieren sollen, mit evtl. denkbaren Display sowie Personenhöhe
+> Problematik Kosten
+### Option E:
+- Modifizierter Servicebot
+> Problematik Kosten
+### Oprion F:
+- Modifizierter Staubsaugerroboter mit bereits vorhandenen Sensoren zur Orienttierung
+> Problematik: Erkennbarkeit
 
 ## Hardware-Gestaltung des Roboters
 ### Idee 1:
