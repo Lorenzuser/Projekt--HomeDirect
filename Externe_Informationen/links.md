@@ -13,4 +13,10 @@
 
 [Link zum Telepräsenzroboter Ohmnilabs](https://ohmnilabs.com/products/ohmni-telepresence-robot/)
 
+---
+
 [Link zu Roboter, "Spencer", welcher meschen im Flughafen bei Navigierung hilft](https://phys.org/news/2015-11-robot-passengers-airport.html)
+
+---
+
+[Link zu Studie: Effectiveness of Companion Robot Care for Dementia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8304164/)
