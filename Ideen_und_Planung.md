@@ -33,16 +33,33 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 * Zuvor macht der Roboter eine Analysefahrt, um die Umgebung zu analysieren und damit man die Türen der Bewohner einspeichern kann. 
     * Alternativ könnte man mit Markierungen an den Türen, Wänden, Decke oder Boden arbeiten.
     * Ros 2 kann man relativ einfach mit der opencv-Library ergänzen.
-    
+
+>++ fortschritlichste Lösung  
+++ Apassasungfähig  
+-- arbeitsaufwand noch nicht vollkommen klar  
+-- unbekanntere Technik
+
 ### Option B:
 * Vor Verwendung des Roboters werden Markierungen auf dem Boden angebracht. Diese könnten auf Basis kontrastreicher Linien aufbauen. Der Roboter orientiert sich anhand dieser, um den Weg zu den Räumen zu finden. Als Sensoren werden Farbsensoren oder Helligkeitssensoren verwendet.
 * Der Roboter könnte eine Analysefahrt machen, um auch bei komplexer werdenden räumlichen Gegebenheiten, den kürzesten Weg zu finden. 
 
+>++technisch einfach bzw. Bekannt 
+--kann Hindernissen nicht umgehen  
+-- Linien müssen angebracht werden, die hohe Resistenz haben
+
 ### Option C
 * Es werden ähnliche Markierungen auf dem Boden oder der Decke angebracht. Diese werden mithilfe einer optischen Kamera, anstatt punktueller Sensoren erkannt. 
 
+>++mittlere Komplexität  
+--hochauflösende Kamera benötigt  
+--Linien müssen angebracht werden
+
 ### Option D
-* Markierungen am Boden, wie B,jedoch mit zusätzlichen kleineren Markierugen an Kreuzungen, die jeweils die richtige Route zum Zimmer angeben (Verlässlichkeit varriiert).
+* Markierungen am Boden, wie B,jedoch mit zusätzlichen kleineren Markierugen an Kreuzungen, die jeweils die richtige Route zum Zimmer angeben (Verlässlichkeit varriiert).  
+>++technisch einfacher
+--kann Hindernissen nicht umgehen  
+-- Linien müssen angebracht werden, die hohe Resistenz haben
+
 # Chassis des Roboters:
 ## Anforderungen:
 - Es sollte gut erkennbar für seine Nutzer sein.
@@ -110,3 +127,4 @@ Hier muss der Chip in näheren Kontakt mit dem Leser kommen.
 * *Weitere Sensoren als Ergänzung für den Lidar, zum Beispiel Tiefgelegte Leisten mit Buttons oder Kameras.
 Auch während der Entwicklung neue Dinge, welche hilfreich sind, wie Displays, Switches, Dinge für Nutzerinteraktion usw., neue Ideen werden folgen...*
 
+#
