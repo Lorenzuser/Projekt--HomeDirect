@@ -1,6 +1,13 @@
 # Altersheim-Robotik - ( Projektname: HomeDirect) 
 
+## Aktuelle TO DO's
+- Zeitplan ausplanen
+- Möglichkeiten an Roboterplattformen und Hardware auflisten 
+- Ros kennenlernen
+-
+-
 
+## Szenario:
 Der <strong>Fachkräftemangel</strong> ist allgegenwärtig innerhalb der Medizin sowie Altenpflege.  
  Dies stellt ein Problem dar, wenn niemand in der Lage ist, den zu pflegenden Menschen zu helfen.  
   Eine dieser Problemstellen, die vor allem <strong>demente Menschen</strong> in Altersheimen betrifft, wo sie Unterstützung bräuchten, ist <strong>Orientierung</strong>.  
