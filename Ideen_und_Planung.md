@@ -89,13 +89,21 @@ Das bedeutet genauer, dass wir einen Raspberry Pi/Jetson Nano oder anderen Singl
 # Materialliste mit möglichen Teilen:
 
 * 360° Lidar/Laser/ToF Sensor. Idee: RPLidar A1M8, sonst alternative DIY-Lösungen suchen
+
 * Farb- oder Helligkeitssensoren
+
 * RFID Leser und Transponder *(Wir haben einen in der Schule)*
+
 * Motoren (Enocoder, Stepper?) *(Stepper ebenfalls, obwohl ich glaube, dass Gleichstrom-Motoren mit Encoder besser geeignet sind)*
+
 * Akku, ggf. Ladegerät *(Gute 7.4 V Akkus gibt es in der Schule)*
+
 * Single-Board-Computer (Jetson Nano, Raspberry Pi), vielleicht auch mit uhs-1 64er SD-Karte, obwohl ich 32er habe.
+
 * Microcontroller/Erweiterter Microcontroller, *(Auch teilweise in Schule)*
+
 * gy 521/mpu 6050 als Beispiel für günstiges Gyroskop/Beschleunigungssensor
+
 * *Weitere Sensoren als Ergänzung für den Lidar, zum Beispiel Tiefgelegte Leisten mit Buttons oder Kameras.
 Auch während der Entwicklung neue Dinge, welche hilfreich sind, wie Displays, Switches, Dinge für Nutzerinteraktion usw., neue Ideen werden folgen...*
 
