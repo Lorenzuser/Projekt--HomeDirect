@@ -80,7 +80,10 @@ Das bedeutet genauer, dass wir einen Raspberry Pi/Jetson Nano oder anderen Singl
 
 ## Personen-Erkennung
 ### Option 1
-- Mit einem RFID-Chip wird erkannt, um welche Person es sich handelt.
+- Mit einem RFID-Chip wird erkannt, um welche Person es sich      handelt.    
+Hier muss der Chip in näheren Kontakt mit dem Leser kommen.
+> niedrigerere Frequenz um nicht unbeabsichtig falsche Chips zu lesen -> vermeided Verwirrung  
+
 ### Option 2
 - Gesichtserkennung
 
