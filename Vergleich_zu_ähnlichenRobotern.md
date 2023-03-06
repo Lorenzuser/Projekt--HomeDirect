@@ -7,7 +7,7 @@
 fährt um Menschengruppen herum und wartet, wenn die Geführte Person nicht hinterher kommt
 * nicht speziell auf die Medizin bzw. Plege ausgerichtet
 
-## Paro”, “Pepper”, “Mario 
+## ["Paro”, “Pepper”, “Mario"](https://www.ke-next.de/kollegeroboter/anwendungen/warum-roboter-in-der-pflege-von-demenzkranken-gebraucht-werden-450.html) 
 * kolloborative Assistenzroboter
 * für Pflege bestimmt
 * bieten Unterhaltung für Patienten
