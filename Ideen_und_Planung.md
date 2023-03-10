@@ -74,7 +74,9 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 - Die Hardware wird auf einem Roboter-Bauset angebracht und ggf. ergänzt mit durch Fusion gedruckten Teilen usw.
 > Diese Version des Roboters währe mehr als Prototy zu sehen, mit dessen Hilfe die Grundsätzliche Funtktionsweise eines möglichen weiter entwickelten Roboters demonstriert wird.    
  
-> -- Zeitaufwendig ++ Anpassbarkeit ++ Preisgünstiger
+>-- Zeitaufwendig  
+ ++ Anpassbarkeit  
+ ++ Preisgünstiger
 ### Option C:
 - Ein Rollator wird motorisiert und entsprechend den Anforderungen umgebaut. 
 > siehe z.B.: Räder von E-Scootern
