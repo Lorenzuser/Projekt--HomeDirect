@@ -71,8 +71,10 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 ### Option A:
 - Aus 3D-Druck-Plastik-Komponenten könnte ein mehretagiger Roboter gebaut werden, der den jeweiligen Anforderungen entspricht. Die Räder und ggf. Schrauben/Muttern und andere Hardware werden ergänzend hinzugezogen.
 ### Option B:
-- Die Hardware wird auf einem Roboter-Bauset angebracht und ggf. ergänzt.
-> Diese Version des Roboters währe mehr als Prototy zu sehen, mit dessen Hilfe die Grundsätzliche Funtktionsweise eines möglichen weiter entwickelten Roboters demonstriert wird. 
+- Die Hardware wird auf einem Roboter-Bauset angebracht und ggf. ergänzt mit durch Fusion gedruckten Teilen usw.
+> Diese Version des Roboters währe mehr als Prototy zu sehen, mit dessen Hilfe die Grundsätzliche Funtktionsweise eines möglichen weiter entwickelten Roboters demonstriert wird.    
+ 
+> -- Zeitaufwendig ++ Anpassbarkeit ++ Preisgünstiger
 ### Option C:
 - Ein Rollator wird motorisiert und entsprechend den Anforderungen umgebaut. 
 > siehe z.B.: Räder von E-Scootern
@@ -82,9 +84,13 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 ### Option E:
 - Modifizierter Servicebot
 > Problematik: Kosten
-### Oprion F:
+### Option F:
 - Modifizierter Staubsaugerroboter mit bereits vorhandenen Sensoren zur Orienttierung
 > Problematik: Erkennbarkeit
+
+### Option G:
+-Vorgebauter Roboter mit Lidar Sensor
+> ++ geringer Zeitaufwand -- teuer
 
 ## Hardware-Gestaltung des Roboters
 ### Idee 1:
