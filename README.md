@@ -1,11 +1,9 @@
 # Altersheim-Robotik - ( Projektname: HomeDirect) 
 
 ## Aktuelle TO DO's
-- Zeitplan ausplanen
-- Möglichkeiten an Roboterplattformen und Hardware auflisten 
 - Ros kennenlernen
--
--
+- Arbeitspakete aufschreiben und Ziele aufschreiben
+- Simulation fertig und auf Roboter warten
 
 ## Szenario:
 Der <strong>Fachkräftemangel</strong> ist allgegenwärtig innerhalb der Medizin sowie Altenpflege.  
