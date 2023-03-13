@@ -11,3 +11,5 @@
 - Meeting. 
 - Roboter bestellt.
 - ROS leicht besprochen.
+## Montag 13.3
+- 'turtleism' ausprobiert
