@@ -3,7 +3,9 @@
 ## Aktuelle TO DO's
 - Ros kennenlernen
 - Arbeitspakete aufschreiben und Ziele aufschreiben
-- Simulation fertig und auf Roboter warten
+- Zeitplan überarbeiten, da wir zu schnell sind
+- Simulation fertig
+- Roter aufsetzen und Programmierumgebung schaffen.
 
 ## Szenario:
 Der <strong>Fachkräftemangel</strong> ist allgegenwärtig innerhalb der Medizin sowie Altenpflege.  
