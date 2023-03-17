@@ -20,3 +20,5 @@
 - ROS leicht besprochen.
 ## Montag 13.3 :
 - 'turtleism' ausprobiert
+## Donerstag 17.3 :
+- Roboter angekommen und aufgebaut
