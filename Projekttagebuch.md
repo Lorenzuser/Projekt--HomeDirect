@@ -35,3 +35,4 @@
 ## Sonntag 19.3.23 *(Punkt 2.)*:
 -Heute konnte ich feststellen, da ich die Treibern und die Distribution von Source installiert habe, dass es wahrscheinlch möglich wäre zur neueren ROS2 Distribution "Humble Hawksbill" zu migrieren. Trotzdem habe ich die Installation wie im [offiziellen e-manual](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/) beschrieben, vorgenommen um zu Beginn des Projektes Zeit zu sparen.
 ## 20-24.3 :
+- Versuch Etablierung WiFi Verbindung Roboter mit Pc per Linux
