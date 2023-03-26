@@ -22,7 +22,7 @@
 
 # Mögliche technische Umsetzungen  
 ## Raum-Orientierung:
-### Option A:
+### <strong>(GEWÄHLT)</strong> Option A:
 * Der Roboter erkennt mithilfe eines 360° Laserscanner(Lidar/ToF)-Modules seine Umgebung:
 Er sollte mithilfe aller Messpunkte eine Karte seiner Umgebung erstellen und dadurch seine 
 eigene Position herausfinden und analysieren, wo er hinfahren soll. Die Software dazu, soll auf Basis 
@@ -90,7 +90,7 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 - Modifizierter Staubsaugerroboter mit bereits vorhandenen Sensoren zur Orienttierung
 > Problematik: Erkennbarkeit
 
-### Option G:
+### <strong>(GEWÄHLT)</strong> Option G:
 -Vorgebauter Roboter mit Lidar Sensor
 > ++ geringer Zeitaufwand -- teuer
 
@@ -98,13 +98,13 @@ mit selbstgebauten Sensoren oder Ersatzteilen/Ausschlachtungen von Saugrobotern 
 ### Idee 1:
 - Der Roboter besteht aus zwei Hard- und Software-Instanzen. 
 Das bedeutet genauer, dass wir einen Raspberry Pi/Jetson Nano oder anderen Single-Board-Computer für komplexe Anwendungen nutzen und mit einem Arduino/Esp/Microcontroller die Motoren steuern und Sensordaten aufnehmen. Die Kommunikation könnte über I2C, UART/USB oder SPI funktionieren. 
-### Idee 2:
+### <strong>(GEWÄHLT)</strong> Idee 2:
 - Alternativ könnte komplexe und rechenintensive Aufgaben auf Home-Servern laufen, sowie ggf. komplexere Sensordatenverarbeitung und das Kartographieren. Weiterhin würde das direkte interagieren mit Sensoren/Motoren auf einem Arduino/Esp/Microcontroller geschehen.
 ### Idee 3:
 - Wir könnten die gesamte Software und Hardware-Interaktion so simpel gestalten, dass wir alles über einen oder mehren Arduino/Esp/Microcontroller verarbeiten.
 
 ## Personen-Erkennung
-### Option 1
+### <strong>(GEWÄHLT)</strong> Option 1
 - Mit einem RFID-Chip wird erkannt, um welche Person es sich      handelt.    
 Hier muss der Chip in näheren Kontakt mit dem Leser kommen.
 > niedrigerere Frequenz um nicht unbeabsichtig falsche Chips zu lesen -> vermeided Verwirrung  
