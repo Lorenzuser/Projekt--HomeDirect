@@ -41,4 +41,6 @@
 - Bringup
 - Teleoperation funktionsfähig
   > Controler (DS4)-Support in Arbeit
+- Simulation Fuktionsfähig
+  > in Arbeit
 - Probleme in Kommunikation zwischen PC und TurtleBot3 beim *topic monitor* und *SLAM*
