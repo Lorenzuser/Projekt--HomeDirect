@@ -41,3 +41,5 @@
 - Bringup
 - Teleoperation funktionsfähig
   > Controler (DS4)-Support in Arbeit
+- Simulation funktionsfähig
+  > in Arbeit
