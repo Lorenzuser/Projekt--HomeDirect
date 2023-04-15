@@ -21,4 +21,5 @@
 
 [Link zu Studie: Effectiveness of Companion Robot Care for Dementia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8304164/)
 ---
-[Link zur Arbeit über SLAM an TB](https://www.researchgate.net/publication/359257635_Vergleich_Lidar-basierter_2D-SLAM-Algorithmen_auf_ein_TurtleBot3_auf_Basis_des_Robot_Operating_Systems_ROS) 
+
+[Link zur Arbeit über SLAM an TB](https://www.researchgate.net/publication/359257635_Vergleich_Lidar-basierter_2D-SLAM-Algorithmen_auf_ein_TurtleBot3_auf_Basis_des_Robot_Operating_Systems_ROS)
