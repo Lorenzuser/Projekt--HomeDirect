@@ -48,4 +48,23 @@
 - Probleme in Kommunikation zwischen PC und TurtleBot3 beim *topic monitor* und *SLAM*
   > "ros2 topic list" funtioniert nur auf Roboter, aber nicht per "ssh ubuntu@ubuntu"
 
-## 28.
+## 28.3-1.4 :
+- Probleme in Kommunikation 'TB3 zu PC' festgestellt
+  > Teleoperation hat aufgehört zu funktionieren
+  > SLAM-Node(vorgefertigt) wird nicht korrekt ausgeführt (keine Karte wird erstellt)
+
+## 2-9.4:
+- Problem in Komunikation u.a. von Netzwerkkonfiguration verursacht (!)
+  > Problem identifiziert und Lösungsweg gefunden (' "StackOverflow-Link" hier einfügen')
+- Lidar-Sensor hängt mit SLAM-Problem zusammen
+  > es wird keine gemeinsame Kommunikation aufgebaut
+
+## 10.4-16.4
+- Problematiken mit Schulnetzwerk im Zusammenhang zu unserer Gerätekommunikation festgestellt
+  > Problem gelöst: "hgoIntern" als nutzbar anzunehmen
+- Teleoperation wieder funktionsfähig
+- Treiberprobleme des Lidars festgestellt
+  > Treiber scheinen trotz Instalation nicht abrufbar zu sein
+
+ 
+
