@@ -47,3 +47,5 @@
   >Roboter kann zu Position fahren (inkonsistente Erfolgsrate)
 - Probleme in Kommunikation zwischen PC und TurtleBot3 beim *topic monitor* und *SLAM*
   > "ros2 topic list" funtioniert nur auf Roboter, aber nicht per "ssh ubuntu@ubuntu"
+
+## 
