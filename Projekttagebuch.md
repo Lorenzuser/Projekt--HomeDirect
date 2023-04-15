@@ -97,4 +97,4 @@
   - [Treiber](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver) scheinen trotz Instalation nicht direkt abrufbar zu sein  
   >mit Workaround gelöst (15.4)
 - Lidar ansteuerbar mit 'ros2 launch hls_lfcd_lds_driver hlds_laser.launch' wenn im '/launch' Directory per 'cd'
->Lidardaten nicht per RViz anzeigbar
+   >Lidardaten nicht per RViz anzeigbar
