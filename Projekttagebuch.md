@@ -98,3 +98,9 @@
   >mit Workaround gelöst* (15.4)
 - Lidar ansteuerbar mit 'ros2 launch hls_lfcd_lds_driver hlds_laser.launch' wenn im '/launch' Directory per 'cd'
    >Lidardaten nicht per RViz anzeigbar( [Fehler: vorgefertigte Launch-File](Bilder\RVizError_inProgramm-15.4.png), 'Fixed Frame-Error' per RViz manuell )
+
+## 21.4
+
+- Gemeinsames Meeting
+- Ursache von Lidarproblemen weiter spezifiziert
+- vermutliche Datei zum Wechseln von Launchparametern des Lidars gefunden
