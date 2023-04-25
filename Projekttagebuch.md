@@ -97,7 +97,7 @@
   - [Treiber](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver) scheinen trotz Instalation nicht direkt abrufbar zu sein  
   >mit Workaround gelöst* (15.4)
 - Lidar ansteuerbar mit 'ros2 launch hls_lfcd_lds_driver hlds_laser.launch' wenn im '/launch' Directory per 'cd'
-   >Lidardaten nicht per RViz anzeigbar( [Fehler: vorgefertigte Launch-File](Bilder\RVizError_inProgramm-15.4.png), 'Fixed Frame-Error' per RViz manuell )
+   >Lidardaten nicht per RViz anzeigbar(, 'Fixed Frame-Error' per RViz manuell)![Fehler: vorgefertigte Launch-File](Bilder\RVizError_inProgramm-15.4.png)
 
 ## 21.4
 
