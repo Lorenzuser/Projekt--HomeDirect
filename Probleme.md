@@ -26,6 +26,7 @@
 ##### Lösungsversuche
     - 'turtlebot3_bringup' bearbeiten (bei GitHub-Repo des Roboters auffindbar)
     > nicht auf Ubuntu des Roboters auffindbar
+    - Roboter mit neuer SD-Karte in Ruhe nach Anleitung neu konfigurieren
 
 #### - Workaround
 
