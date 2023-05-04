@@ -20,12 +20,14 @@
     - Ändern von "port: /dev/ttyUSB2" zu "/ttyUSB0" in '/tmp/launch_params_uuc1pnvx' (es wird laut 'bringup'-logs angenommen, dass dies die Datei mit den Einstellungen für den Lidar-Launch sind)
     > Änderung vom System verweigert
     - hlds_laser.launch.py bearbeiten: ttyUSB0 -> ttyUSB2; laser -> base_scan
+    > Gescheitert
 
 2. Allgemeine Komplikationen mit der Launchdatei von 'bringup'
 
 ##### Lösungsversuche
-    - 'turtlebot3_bringup' bearbeiten (bei GitHub-Repo des Roboters auffindbar)
-    > nicht auf Ubuntu des Roboters auffindbar
+    - 'turtlebot3_bringup/launch/' bearbeiten (bei GitHub-Repo des Roboters auffindbar)
+    > ~~nicht auf Ubuntu des Roboters auffindbar~~
+    > Funktioniert
     - Roboter mit neuer SD-Karte in Ruhe nach Anleitung neu konfigurieren
 
 #### - Workaround
