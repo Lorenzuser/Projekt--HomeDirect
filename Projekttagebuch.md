@@ -103,4 +103,13 @@
 
 - Gemeinsames Meeting
 - Ursache von Lidarproblemen weiter spezifiziert
-- vermutliche Datei zum Wechseln von Launchparametern des Lidars gefunden
+- ~~vermutliche Datei zum Wechseln von Launchparametern des Lidars gefunden~~
+
+## 28.4
+
+- Gemeinsames Meeting
+- (Neukonfigurieren des TB3 vorgeschlagen)
+
+## 04.05
+
+- Lidar-Error in 'bringup' behoben
