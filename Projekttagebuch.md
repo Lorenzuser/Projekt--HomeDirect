@@ -113,3 +113,6 @@
 ## 04.05
 
 - Lidar-Error in 'bringup' behoben
+- Ubuntu auf Laptop von Lorenz als Dualboot installiert.
+- Sensor gibt korrekt Werte aus und Published über OpenWrt-Reiserouter Werte zum Laptop, wo sie visualisiert werden können.
+![Bild aus RViz, ausführen von SLAM-Demo_Node](https://github.com/Lorenzuser/Projekt--HomeDirect/blob/17e1c41fca42d6a0e66bb64d89665e6b644c044f/Bilder/4.5-RViz.png)
