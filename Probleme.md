@@ -2,7 +2,7 @@
 
 ## Lidar Sensor
 
-### 'bringup' error: Lidar Sensor wird nicht gestartet  ![siehe](Bilder\ScreenshotBringupUpperHalf.png) 
+### 'bringup' error: Lidar Sensor wird nicht gestartet  ![siehe](Bilder\ScreenshotBringupUpperHalf.png)
 
 #### mögliche Ursachen
 
@@ -25,6 +25,7 @@
 2. Allgemeine Komplikationen mit der Launchdatei von 'bringup' (als Ursache identifiziert)
 
 #### Lösungsversuche  
+
     - '/turtlebot3_bringup/share/turtlebot3_bringup/launch' bearbeiten (bei GitHub-Repo des Roboters 
     auffindbar)
     > ~~nicht auf Ubuntu des Roboters auffindbar~~

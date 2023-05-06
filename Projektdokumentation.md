@@ -118,5 +118,11 @@
 ![Bild aus RViz, ausführen von SLAM-Demo_Node](https://github.com/Lorenzuser/Projekt--HomeDirect/blob/17e1c41fca42d6a0e66bb64d89665e6b644c044f/Bilder/4.5-RViz.png)
 
 ## 5.5
+
 - Die SLAM-Node zum erstellen der Karte funktioniert sehr gut. Man könnte ggf. als Enhancement eine Funktion zur Unterstützung von einem Controller hinzufügen
 - Die Navigation funktioniert *out of the box* nicht. Als nächsten Schritt probiere ich unabhängig vom [Emanual](https://emanual.robotis.com/docs/en/platform/turtlebot3/navigation/#navigation) die Navigation zu schreiben.
+- Erstellung einer Gazebo-World auf VirtualBox versucht, jedoch Probleme mit Leistung festgestellt
+
+## 6.5
+
+- Ubuntu auf Desktop-Pc von Alex als Dualboot installiert
