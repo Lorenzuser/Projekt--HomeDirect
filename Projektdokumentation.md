@@ -125,4 +125,4 @@
 
 ## 6.5
 
-- Ubuntu auf Desktop-Pc von Alex als Dualboot installiert
+- Ubuntu auf Desktop-Pc von Alex als Dualboot installiert (nvm :( )
