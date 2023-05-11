@@ -125,4 +125,16 @@
 
 ## 6.5
 
-- Ubuntu auf Desktop-Pc von Alex als Dualboot installiert (nvm :( )
+- Ubuntu auf Desktop-Pc von Alex als Dualboot installiert (nvm :(  )
+
+## 7.5
+
+- Fake Node Simulation-Tutorial abgeschlossen (A)
+
+## 11.5
+
+- RFID RC 522 mit zweitem Raspery Pi verkabelt
+- TurtleBot-Image auf Raspery kopiert
+- Änderung an 'config-...-file' unten angehängt (Abweichung vom Tutorial):  
+device_tree_param=spi=on  
+dtoverlay=spi-bcm2708
