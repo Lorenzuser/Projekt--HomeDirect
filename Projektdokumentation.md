@@ -133,11 +133,16 @@
 
 ## 11.5
 
-- RFID RC 522 mit zweitem Raspery Pi verkabelt
-- TurtleBot-Image auf Raspery kopiert
-- Änderung an 'config-...-file' unten angehängt (Abweichung vom Tutorial):  
+- RFID RC 522 mit zweitem Raspberry Pi verkabelt
+- TurtleBot-Image auf Raspberry kopiert
+- Änderung an 'config-5.4.0-1028-raspi' unten angehängt (Abweichung vom Tutorial):  
 device_tree_param=spi=on  
 dtoverlay=spi-bcm2708
+
+## 12.5
+
+- raspi-config auf Pi (Alex) installiert um evtl. SPI für RFID zu aktivieren  
+Funktionsfähigkeit noch unklar
 
 # Projektdokumentation: Problemlösung
 
