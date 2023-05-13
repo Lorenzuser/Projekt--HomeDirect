@@ -146,7 +146,7 @@ Funktionsfähigkeit noch unklar
 
 ## 13.5
 
-- Dependencys für 'raspi-config' und anderes auf dem Pi gefixt
+- Dependencys für 'raspi-config' und anderes auf dem Pi gefixt ('sudo apt --fix broken install')
 - Programm Lesen und Schreiben RFID für Pi mit Python geschrieben dank [Tutorial](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
 
 # Projektdokumentation: Problemlösung
