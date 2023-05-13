@@ -144,6 +144,11 @@ dtoverlay=spi-bcm2708
 - raspi-config auf Pi (Alex) installiert um evtl. SPI für RFID zu aktivieren  
 Funktionsfähigkeit noch unklar
 
+## 13.5
+
+- Dependencys für 'raspi-config' und anderes auf dem Pi gefixt
+- Programm Lesen und Schreiben RFID für Pi mit Python geschrieben dank [Tutorial](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
+
 # Projektdokumentation: Problemlösung
 
 ## Lidar Sensor
