@@ -1,4 +1,5 @@
-#ACHTUNG: Kopierter, nicht angepasster unvollstänfig Kommentierter Code !
+#ACHTUNG: Kopierter, nicht angepasster, unvollständig Kommentierter Code !
+# SetUP für RFID Modell RC522
 import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
 #Erlaube 'string' für ROS2 per Package

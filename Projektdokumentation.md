@@ -125,7 +125,7 @@
 
 ## 6.5
 
-- Ubuntu auf Desktop-Pc von Alex als Dualboot installiert (nvm :(  )
+- ~~Ubuntu auf Desktop-Pc von Alex als Dualboot installiert (nvm :(  )~~
 
 ## 7.5
 
@@ -148,6 +148,15 @@ Funktionsfähigkeit noch unklar
 
 - Dependencys für 'raspi-config' und anderes auf dem Pi gefixt ('sudo apt --fix broken install')
 - Programm Lesen und Schreiben RFID für Pi mit Python geschrieben dank [Tutorial](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
+
+## 14.5
+
+- Ubuntu 22.4 auf Desktop-Pc von Alex als Dualboot installiert
+  - ROS2 Humble installiert (debian) sowie TB3 und Nav2 Packages)
+
+## 15.5
+
+- [ROS2-Documentation Tutorial für Colcon](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html) fortgeführt bis "Creating a workspace"
 
 # Projektdokumentation: Problemlösung
 
