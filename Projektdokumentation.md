@@ -158,6 +158,11 @@ Funktionsfähigkeit noch unklar
 
 - [ROS2-Documentation Tutorial für Colcon](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html) fortgeführt bis "Creating a workspace"
 
+# 16.5
+
+- ROS2 Workspace lokal auf Alex's Desktop konfiguriert
+- Übungs- ROS2-Package sowie Node erstellt
+
 # Projektdokumentation: Problemlösung
 
 ## Lidar Sensor
