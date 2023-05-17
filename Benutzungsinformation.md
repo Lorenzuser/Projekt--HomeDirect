@@ -6,9 +6,9 @@
 
 ### Ubuntu Heimpc von Alex:
 
-enutzername: adev
+benutzername: 
 
-- Passwort: adev
+- Passwort:
 
 ### TurtleBot3:
 
