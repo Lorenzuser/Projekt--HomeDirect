@@ -166,8 +166,10 @@ Funktionsfähigkeit noch unklar
 # 18.5
 
 - Kommentierung Übungs-Node
-- Dokumentierten Übungs- publisher & subscriber erstellt
-
+- Dokumentierten Übungs- publisher
+  ![pubpic](Bilder/practice_pub_2023-05-18 11-01-25.png) 
+ & subscriber erstellt
+  ![subpic](Bilder/practice_sub_2023-05-18 12-05-30.png) 
 - Weiteres Gazebo Modell "carehome02" erstellt  
 - TurtleBot3 Packages von source installiert zu 'aDesktop' (foxy mit humble ersetz)
 - 
