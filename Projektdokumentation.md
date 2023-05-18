@@ -166,14 +166,19 @@ Funktionsfähigkeit noch unklar
 # 18.5
 
 - Kommentierung Übungs-Node
-- Dokumentierten Übungs- publisher
-  ![pubpic](Bilder/practice_pub_2023-05-18 11-01-25.png) 
- & subscriber erstellt
-  ![subpic](Bilder/practice_sub_2023-05-18 12-05-30.png) 
+- Dokumentierten Übungs- publisher  
+
+  ![pubpic](Bilder/practice_pub.png)  
+
+  & subscriber erstellt  
+
+  ![subpic](Bilder/practice_sub.png)
+
 - Weiteres Gazebo Modell "carehome02" erstellt  
 - TurtleBot3 Packages von source installiert zu 'aDesktop' (foxy mit humble ersetz)
 - 
   - Nutzung mit eigenem Gazebo möglich durch Kopieren des [Ordners](Simulation/Models/carehome02) zum Ordner wo die eigenen Models sind (evtl. musst man für den eingerichteten Ordner erst etwas eigenes erstellen oder manuell im Programm zum Ordner linken(direcktes Linken zum Repo ging bei mir nicht) )
+  ![Anleitung](Bilder/upload_models_your_gazebo.png)
 
 
 # Projektdokumentation: Problemlösung
