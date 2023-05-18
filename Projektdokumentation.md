@@ -163,6 +163,11 @@ Funktionsfähigkeit noch unklar
 - ROS2 Workspace lokal auf Alex's Desktop konfiguriert
 - Übungs- ROS2-Package sowie Node erstellt
 
+# 18.5
+
+- Kommentierung Übungs-Node
+- Dokumentierten Übungs- publisher & subscriber erstellt
+
 # Projektdokumentation: Problemlösung
 
 ## Lidar Sensor
