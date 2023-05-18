@@ -168,6 +168,12 @@ Funktionsfähigkeit noch unklar
 - Kommentierung Übungs-Node
 - Dokumentierten Übungs- publisher & subscriber erstellt
 
+- Weiteres Gazebo Modell "carehome02" erstellt  
+- TurtleBot3 Packages von source installiert zu 'aDesktop' (foxy mit humble ersetz)
+- 
+  - Nutzung mit eigenem Gazebo möglich durch Kopieren des [Ordners](Simulation/Models/carehome02) zum Ordner wo die eigenen Models sind (evtl. musst man für den eingerichteten Ordner erst etwas eigenes erstellen oder manuell im Programm zum Ordner linken(direcktes Linken zum Repo ging bei mir nicht) )
+
+
 # Projektdokumentation: Problemlösung
 
 ## Lidar Sensor
