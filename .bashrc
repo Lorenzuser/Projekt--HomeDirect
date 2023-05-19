@@ -124,6 +124,7 @@ source /opt/ros/humble/setup.bash
 #Colcon-Autocompletion
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 #Custom ROS2-WS
+# ~/ros2_ws/ might be different for you
 source ~/ros2_ws/install/setup.bash
 
 export ROS_DOMAIN_ID=30 #TURTLEBOT3
