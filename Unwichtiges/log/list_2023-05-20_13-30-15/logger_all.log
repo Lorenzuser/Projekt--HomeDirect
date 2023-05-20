@@ -1,0 +1,228 @@
+[0.443s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/adev/visual-studio/Projekt--HomeDirect']
+[0.443s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/adev/visual-studio/Projekt--HomeDirect'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5ed18e3fa0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f5ed1975810>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f5ed1975810>>)
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.485s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adev/visual-studio/Projekt--HomeDirect'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extension 'ros'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extensions ['cmake', 'python']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extension 'cmake'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extension 'python'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extensions ['python_setup_py']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect) by extension 'python_setup_py'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extension 'ros'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extensions ['cmake', 'python']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extension 'cmake'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extension 'python'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extensions ['python_setup_py']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder) by extension 'python_setup_py'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extension 'ros'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extensions ['cmake', 'python']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extension 'cmake'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extension 'python'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extensions ['python_setup_py']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/RFID) by extension 'python_setup_py'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extension 'ros'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extensions ['cmake', 'python']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extension 'cmake'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extension 'python'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extensions ['python_setup_py']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/ros2 doctor) by extension 'python_setup_py'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extension 'ros'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extensions ['cmake', 'python']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extension 'cmake'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extension 'python'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extensions ['python_setup_py']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Bilder/rqt) by extension 'python_setup_py'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extension 'ros'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extensions ['cmake', 'python']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extension 'cmake'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extension 'python'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extensions ['python_setup_py']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Externes) by extension 'python_setup_py'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extension 'ros'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extensions ['cmake', 'python']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extension 'cmake'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extension 'python'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extensions ['python_setup_py']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Marktrecherche_und_Erste_Planung) by extension 'python_setup_py'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extensions ['cmake', 'python']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extension 'python'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extensions ['python_setup_py']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/RFID) by extension 'python_setup_py'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extension 'ros'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extensions ['cmake', 'python']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extension 'cmake'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extensions ['python_setup_py']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation) by extension 'python_setup_py'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extension 'ros'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extensions ['cmake', 'python']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extension 'cmake'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extension 'python'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extensions ['python_setup_py']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models) by extension 'python_setup_py'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extension 'ros'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extensions ['cmake', 'python']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extension 'cmake'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extension 'python'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extensions ['python_setup_py']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome01) by extension 'python_setup_py'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extension 'ros'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extension 'python'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extensions ['python_setup_py']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Simulation/Models/carehome02) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extension 'ros'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extensions ['cmake', 'python']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extension 'cmake'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extension 'python'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extensions ['python_setup_py']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/Zeitplanung (veraltet)) by extension 'python_setup_py'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/log) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/log) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/log) ignored
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extension 'ros'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extensions ['cmake', 'python']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extension 'cmake'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extension 'python'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src) by extension 'python_setup_py'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/my_robot_controller) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/my_robot_controller) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/my_robot_controller) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/my_robot_controller) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/my_robot_controller) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/my_robot_controller) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/my_robot_controller) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/my_robot_controller) by extension 'ros'
+[0.519s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adev/visual-studio/Projekt--HomeDirect/src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/tb3_rfid) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/tb3_rfid) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/tb3_rfid) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/tb3_rfid) by extensions ['colcon_pkg']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/tb3_rfid) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/tb3_rfid) by extensions ['colcon_meta']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/tb3_rfid) by extension 'colcon_meta'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/tb3_rfid) by extensions ['ros']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adev/visual-studio/Projekt--HomeDirect/src/tb3_rfid) by extension 'ros'
+[0.521s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adev/visual-studio/Projekt--HomeDirect/src/tb3_rfid' with type 'ros.ament_python' and name 'tb3_rfid'
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

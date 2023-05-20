@@ -180,6 +180,12 @@ Funktionsfähigkeit noch unklar
   - Nutzung mit eigenem Gazebo möglich durch Kopieren des [Ordners](Simulation/Models/carehome02) zum Ordner wo die eigenen Models sind (evtl. musst man für den eingerichteten Ordner erst etwas eigenes erstellen oder manuell im Programm zum Ordner linken(direcktes Linken zum Repo ging bei mir nicht) )
   ![Anleitung](Bilder/upload_models_your_gazebo.png)
 
+# 19.5
+
+- Publisher für RFID reader erstellt
+- Subscriber für obigen Publisher erstellt
+- Discord-Call
+-Versuche
 
 # Projektdokumentation: Problemlösung
 
