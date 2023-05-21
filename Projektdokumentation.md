@@ -185,7 +185,12 @@ Funktionsfähigkeit noch unklar
 - Publisher für RFID reader erstellt
 - Subscriber für obigen Publisher erstellt
 - Discord-Call
--Versuche
+ -Versuche
+
+# 20.5
+
+- Code-Only repository / worspace für ros mit git eingerichtet 
+- gescheiterter Versuch rfid_publish auf Pi zu nutzen
 
 # Projektdokumentation: Problemlösung
 
