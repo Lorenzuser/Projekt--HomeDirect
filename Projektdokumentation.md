@@ -187,7 +187,7 @@ Funktionsfähigkeit noch unklar
 - Discord-Call
  -Versuche
 
-# 20.5
+# 21.5
 
 - Code-Only repository / worspace für ros mit git eingerichtet 
 - gescheiterter Versuch rfid_publish auf Pi zu nutzen
