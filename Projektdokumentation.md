@@ -158,12 +158,12 @@ Funktionsfähigkeit noch unklar
 
 - [ROS2-Documentation Tutorial für Colcon](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html) fortgeführt bis "Creating a workspace"
 
-# 16.5
+## 16.5
 
 - ROS2 Workspace lokal auf Alex's Desktop konfiguriert
 - Übungs- ROS2-Package sowie Node erstellt
 
-# 18.5
+## 18.5
 
 - Kommentierung Übungs-Node
 - Dokumentierten Übungs- publisher  
@@ -180,14 +180,14 @@ Funktionsfähigkeit noch unklar
   - Nutzung mit eigenem Gazebo möglich durch Kopieren des [Ordners](Simulation/Models/carehome02) zum Ordner wo die eigenen Models sind (evtl. musst man für den eingerichteten Ordner erst etwas eigenes erstellen oder manuell im Programm zum Ordner linken(direcktes Linken zum Repo ging bei mir nicht) )
   ![Anleitung](Bilder/upload_models_your_gazebo.png)
 
-# 19.5
+## 19.5
 
 - Publisher für RFID reader erstellt
 - Subscriber für obigen Publisher erstellt
 - Discord-Call
  -Versuche
 
-# 21.5
+## 21.5
 
 - Code-Only repository / worspace für ros mit git eingerichtet 
 - gescheiterter Versuch rfid_publish auf Pi zu nutzen
@@ -234,3 +234,87 @@ Funktionsfähigkeit noch unklar
 - ![/scan topic](Bilder\rqt\rqtLidarRunning-19.4.png) wird ausgegeben
 - RViz ist nicht in der Lage die Daten des Sensors auszugeben ![siehe](Bilder\RVizError_inProgramm-15.4.png)
   >Error: "fixed-frame missing"  
+
+## - Permission Nutzung des ŕfid-pulishers
+
+### Error 1
+
+```[terminal]
+ File "/usr/local/lib/python3.8/dist-packages/mfrc522/MFRC522.py", line 130, in __init__
+    self.spi.open(bus, device)
+PermissionError: [Errno 13] Permission denied
+```
+
+Gefixt durch bereistellen von Rechten in `.bashrc`
+
+  ```
+  sudo chmod o+rw /dev/spidev* 
+  #or
+  sudo chmoda a+rw ...
+  ```
+
+### Error 2
+
+```[terminal]
+ File "/usr/local/lib/python3.8/dist-packages/mfrc522/MFRC522.py", line 151, in __init__
+    GPIO.setup(pin_rst, GPIO.OUT)
+RuntimeError: No access to /dev/mem.  Try running as root! 
+```
+#### Lösungsversuche
+- Änderung von .bashrc`
+
+  ```
+  sudo chmod a+rw /dev/mem
+  ``` 
+- Erstellung einer `udev rule`
+
+  ```
+  sudo nano /etc/udev/rules.d/99-com.rules
+  ```
+
+  ```[nano]
+  KERNEL=="mem", GROUP="users", MODE="0660"
+  ```
+
+  ```
+  sudo udevadm control --reload-rules && sudo udevadm trigger
+  ```
+
+- [dialout](https://askubuntu.com/questions/1230947/gpio-for-raspberry-pi-gpio-group)
+  ```
+  sudo apt install rpi.gpio-common
+  sudo adduser "${USER}" dialout
+  sudo reboot
+  ```
+
+- Upadate
+
+  ```
+  sudo apt update
+  sudo apt upgrade
+  ```
+
+- Installieren und doublechecken von SPI und ARM I2C Einstellungen
+
+  ```
+  sudo apt-get install -y spi-tools
+  sudo apt-get install -y i2c-tools
+  ```
+
+  /boot/config.txt Änderung:
+  ```
+  dtparam=spi=on
+  dtparam=i2c_arm=on
+  dtparam=i2c1=on
+  ```
+
+  Nutzergruppe zugewiesen
+  ```
+  sudo adduser $USER i2c
+  ```
+
+  Zuletzt
+  ```
+  sudo reboot
+  ```
+  und mit `ls /dev` Wirksamkeit der Einstellungen prüfen
