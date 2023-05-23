@@ -192,6 +192,12 @@ Funktionsfähigkeit noch unklar
 - Code-Only repository / worspace für ros mit git eingerichtet 
 - gescheiterter Versuch rfid_publish auf Pi zu nutzen
 
+## 22.5 
+
+- Permission Error gefixt
+- Tag daten werden jetzt gepublisht
+- gescheiterter Veruch bringup zu nutzen (es scheint auf Alexs Pi lokal ein Pfadproblem zu bestehen)
+
 # Projektdokumentation: Problemlösung
 
 ## Lidar Sensor
