@@ -204,6 +204,12 @@ Funktionsfähigkeit noch unklar
 - Bringup hat aud Pi-A keine ungewöhnlichen Probleme mehr
 - Recherce und Ausformulierung von Ideen zur Implementierung von rfdi_publish  
 inn eine Haupt- launch file
+
+## 25.5
+- RFID-Leser auf Roboter gebaut.
+- Nav2-Python-Commander kann ursprüngliche Position initialisen und zu einem Ziel fahren. Problem: die Origin-Robot-Position ist zu Beginn unbekannt, aber muss festgelegt werden. Ich konnte nicht herausfinden, durch Nachschauen in der Karte oder RViz, wo der Ort ist. Somit ist die Karte beim starten erst einmal kaputt, weshalb der Roboter nicht angemessen fahren kann.
+
+
 # Projektdokumentation: Problemlösung
 
 ## Lidar Sensor
