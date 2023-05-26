@@ -12,5 +12,5 @@ benutzername:
 
 ### TurtleBot3:
 
-- Benutzername: ubuntu
-  - Passwort: turtlebot
+- Benutzername: pi
+  - Passwort: pi
