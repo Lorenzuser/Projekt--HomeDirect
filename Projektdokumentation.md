@@ -203,7 +203,13 @@ Funktionsfähigkeit noch unklar
 - RFID Subscriber funktioniert (wurde gefixt)
 - Bringup hat aud Pi-A keine ungewöhnlichen Probleme mehr
 - Recherce und Ausformulierung von Ideen zur Implementierung von rfdi_publish  
-inn eine Haupt- launch file
+  inn eine Haupt- launch file
+- Launch File für Roboter erstellt
+
+## 26.5 
+
+- Client der mit `rfid_publisher` Daten Anfragen senden soll erstellt
+
 # Projektdokumentation: Problemlösung
 
 ## Lidar Sensor
