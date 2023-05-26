@@ -1,6 +1,6 @@
 # Dokumentation der zum Nutz benötigten Information
  >
- > Das Projekt Nutzt ROS 2 - Foxy, eine veraltete Version
+ ~~> Das Projekt Nutzt ROS 2 - Foxy, eine veraltete Version~~
 
 ## Login-Informationen:
 
@@ -12,5 +12,5 @@ benutzername:
 
 ### TurtleBot3:
 
-- Benutzername: ubuntu
-  - Passwort: turtlebot
+- Benutzername: pi
+  - Passwort: pi

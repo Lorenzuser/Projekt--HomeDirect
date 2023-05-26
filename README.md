@@ -1,11 +1,11 @@
 # Altersheim-Robotik - ( Projektname: HomeDirect) 
 
-## Aktuelle TO DO's
+(## Aktuelle TO DO's
 - Ros kennenlernen
 - Arbeitspakete aufschreiben und Ziele aufschreiben
 - Zeitplan überarbeiten, da wir zu schnell sind
 - Simulation fertig
-- Roter aufsetzen und Programmierumgebung schaffen.
+- Roter aufsetzen und Programmierumgebung schaffen.)
 
 ## Szenario:
 Der <strong>Fachkräftemangel</strong> ist allgegenwärtig innerhalb der Medizin sowie Altenpflege.  
