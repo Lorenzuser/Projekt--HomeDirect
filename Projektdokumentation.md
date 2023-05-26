@@ -207,10 +207,11 @@ Funktionsfähigkeit noch unklar
 - Launch File für Roboter erstellt
 
 ## 25.5
+
 - RFID-Leser auf Roboter gebaut.
 - Nav2-Python-Commander kann ursprüngliche Position initialisen und zu einem Ziel fahren. Problem: die Origin-Robot-Position ist zu Beginn unbekannt, aber muss festgelegt werden. Ich konnte nicht herausfinden, durch Nachschauen in der Karte oder RViz, wo der Ort ist. Somit ist die Karte beim starten erst einmal kaputt, weshalb der Roboter nicht angemessen fahren kann.
 
-## 26.5 
+## 26.5
 
 - Client der mit `rfid_publisher` Daten Anfragen senden soll erstellt
   in eine Haupt- launch file
