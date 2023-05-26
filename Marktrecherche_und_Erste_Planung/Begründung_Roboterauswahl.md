@@ -1,4 +1,4 @@
-# Begründung der Wahl des *Robotis TurtleBot3 Burger* als Entwicklungsplattform
+### Begründung der Wahl des *Robotis TurtleBot3 Burger* als Entwicklungsplattform
 > Warnung: sehr grobe Fassung
 
 Der TB3 stellt eine Alternative zur eigene Konstruktion eines Roboters, welcher unsere Anforderungen an das Projekt erfüllen kann, dar. So sind essentielle Komponenten, wenn es zu Sensoren sowie Rechenkomponenten kommt, vorhanden. Zudem ist die Turtlebot-Plattform, einer der bislang bewährtesten Plattform für das Arbeiten mit ROS. So besteht dementsprechen ausfürliche Dokumentation der Funtionsweise des Systems und seiner Zusammenarbeit mit ROS.  
