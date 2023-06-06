@@ -1,11 +1,7 @@
 # Altersheim-Robotik - ( Projektname: HomeDirect) 
 
-(## Aktuelle TO DO's
-- Ros kennenlernen
-- Arbeitspakete aufschreiben und Ziele aufschreiben
-- Zeitplan überarbeiten, da wir zu schnell sind
-- Simulation fertig
-- Roter aufsetzen und Programmierumgebung schaffen.)
+- Dies repräsentiert das Dokumentations Repository
+- Der code kann beim Repo [HomeDirect_ws](https://github.com/Lorenzuser/HomeDirect_ws) gefunden werden
 
 ## Szenario:
 Der <strong>Fachkräftemangel</strong> ist allgegenwärtig innerhalb der Medizin sowie Altenpflege.  

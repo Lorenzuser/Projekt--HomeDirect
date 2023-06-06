@@ -215,6 +215,12 @@ Funktionsfähigkeit noch unklar
 
 - Client der mit `rfid_publisher` Daten Anfragen senden soll erstellt
   in eine Haupt- launch file
+  
+## 29.5
+- Hinzugefügt: 
+1. Einen Subscriber, der die Odometry des Roboters während des Kartographierens subscribed. Dem Node werden die Werte übergeben, 1: Name der Person, 2: Name des json-Konfigurationsfiles (Dieses muss vorher im Config-Ordener , mit dem Inhalt "{}" erstellt werden). Die Node speichert die Position mit Namen im File und schließt sich wieder automatisch. 
+2. Ein Service, welches nach überreichen der x und y Koordinaten dorthin fährt.
+3. Ein Beispiel Client für den Service, welches entweder Positionen oder Namen, sowie in beiden Fällen das Config-File als wert pbergeben bekommt. Danach sucht das Programm ggf. die Passenden Koordinaten der Person heraus und lässt das in 2. beschriebene Programm dorthin fahren.
 
 
 # Projektdokumentation: Problemlösung
